@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Kompilujte na ES6 nebo vyšší
+    "module": "ESNext", // Použijte ES moduly (ES6+)
+    "moduleResolution": "node", // Prohlédněte závislosti jako Node.js
+    "esModuleInterop": true, // Zajistí, že CommonJS moduly budou interagovat správně s ES moduly
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "declaration": true,
+    "outDir": "./dist" // Výstupní složka
+  },
+  "include": ["src/**/*"]
+}
